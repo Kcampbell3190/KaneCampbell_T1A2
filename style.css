@@ -34,20 +34,12 @@
     text-transform: uppercase;
 
 }
-.navbar ul li::after{
-    content: "";
-    height: 3px;
-    width: 0%;
-    background: #009688;
-    position: absolute;
-    left: 0;
-    bottom: -10;
-    transition: 0.5;
-}
-.navbar ul li:hover::after{
-    width: 100%;
+
+/*
+.navbar ul li:hover{
+    width: 100%; */
   
-}
+
 .content {
     width: 100%;
     position: absolute;
@@ -65,5 +57,25 @@
     font-weight: 100;
     line-height: 25px;
 }
+
+@media screen and (min-width: 500px) and (max-width: 899px) {
+    .banner {
+        flex-flow: wrap;
+    }
+    .navbar {
+        flex: 100%;
+        min-height: 50px;
+    }
+    
+}
+    
+@media screen and (min-width: 900px) {
+    .banner {
+        flex-flow: wrap;
+    }
+    .navbar {
+        flex: 100%;
+        min-height: 50px;
+    }
     
 }
