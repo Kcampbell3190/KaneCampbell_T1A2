@@ -18,9 +18,16 @@
     align-items: center;
     justify-content: space-between; 
 }
+
+.navbar a:hover {
+        opacity: 0.5;
+}
 .logo {
     width: 120px;
     cursor: pointer;
+}
+.logo:hover{
+    opacity: 0.8;
 }
 .navbar ul li{
     list-style: none;
@@ -57,7 +64,12 @@
     font-weight: 100;
     line-height: 25px;
 }
-
+@media(max-width:499px){
+    .blog-box{
+        margin: 10px 10px;
+        width: 50%;
+    } 
+}
 @media screen and (min-width: 500px) and (max-width: 899px) {
     .banner {
         flex-flow: wrap;
@@ -67,6 +79,9 @@
         min-height: 50px;
     }
     
+    .blog-box{
+        width: 70%;
+    }
 }
     
 @media screen and (min-width: 900px) {
@@ -78,4 +93,9 @@
         min-height: 50px;
     }
     
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
 }
+}
+
