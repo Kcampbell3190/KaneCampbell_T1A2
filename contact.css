@@ -4,6 +4,45 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
+
+<!---------------------------------------Navbar CSS-------------------------------->
+.banner {
+    width: 100%;
+    height: 100vh;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.navbar a:hover {
+        opacity: 0.5;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+.logo:hover{
+    opacity: 0.8;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(6, 64, 158);
+    text-transform: uppercase;
+
+}
+
+<!--------------------------------------Contact Form CSS-------------------------->
 body {
     width: 100%;
     height: 100vh;
@@ -73,7 +112,7 @@ h2::after {
     width: 100%;
     padding: 0.5rem 1rem;
     outline: none;
-    background-color: aqua;
+    background-color: rgb(206, 227, 227);
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: .3s;
