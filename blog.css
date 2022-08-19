@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-<!--------------------------------------Navbar CSS--------------------------->
+/* <!--------------------------------------Navbar CSS---------------------------> */
 .banner {
     width: 100%;
     height: 100vh;
@@ -44,7 +44,7 @@
     text-transform: uppercase;
 
 }
-<!--------------------------------------Blog CSS------------->
+/* <!--------------------------------------Blog CSS-------------> */
 a{
     text-decoration: none;
 }
@@ -63,7 +63,7 @@ body{
     flex-direction: column;
     padding: 40px;
     border-bottom: 1px solid rgba(0,0,0,0.05);
-    transition: 3s;
+    /* transition: 3s; */
 }
 .blog-heading{
     display: flex;
@@ -102,19 +102,25 @@ body{
 }
 .blog-box:hover{
     width: 400px;
-    height: 500px;
+    /* height: 500px; */
     
+}
+.blog-box:hover img{
+    width: 400px;
+    /* height: 500px; */
 }
 
 .blog-img {
     width: 100%;
     height: auto;
+    transition: 4s;
 }
 .blog-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: 4s;
 }
 .blog-text{
     padding: 30px;
@@ -125,7 +131,7 @@ body{
     color: #0d2c69;
     font-size: 0.9rem;
 }
-blog-text .blog-title{
+.blog-text .blog-title{
     font-size: 1.3rem;
     font-weight: 500;
     color: #1f166d;
