@@ -138,3 +138,8 @@ h2::after {
         grid-template-columns: 1fr;
     }
 }
+@media screen and (max-width: 879px){
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+}

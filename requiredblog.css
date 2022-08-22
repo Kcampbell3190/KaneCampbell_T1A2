@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand', sans-serif;
 }
-/* <!----------------------------------Navbar CSS  (Component)--------------------------> */
+/*------------------------------Navbar CSS------------------------------*/
 .banner {
     width: 100%;
     height: 100vh;
@@ -42,8 +43,7 @@
     text-transform: uppercase;
 
 }
-
-/* <!-------------------------------------Information CSS    (Component)---------------------------------------------------------------- */
+/* <!--------------------------------------Blog CSS-------------> */
 a{
     text-decoration: none;
 }
@@ -55,33 +55,30 @@ body{
     padding: 0px;
     font-family: 'Quicksand', sans-serif;
 }
-#information{
+#blog{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    border-bottom: 3px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
     /* transition: 3s; */
 }
-.info-heading{
+.blog-heading{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.info-heading span{
-    color: #373aeb;
+.blog-heading span{
+    color: #021a46;
 }
-.info-heading h3{
+.blog-heading h3{
     font-size: 2.4rem;
-    color: #868eff;
-    font-weight: 600;
+    color: #2b2b2b;
+    font-weight: 100;
 }
-.info-heading h3:hover{
-    color: rgb(223, 223, 241);
-}
-.info-container {
+.blog-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,10 +87,10 @@ body{
     
     
 }
-.info-box {
-    width: 200px;
-    background-color: rgb(253, 253, 254);
-    border: 2px solid #05175e;
+.blog-box {
+    width: 350px;
+    background-color: #ffff;
+    border: 1px solid #ececec;
     margin: 20px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -102,48 +99,47 @@ body{
     
     
 }
-.info-box:hover{
-    width: 300px;
-    
+.blog-box:hover{
+    width: 400px;
+    /* height: 500px; */
     
 }
-.info-box:hover img{
-    width: 200px;
-   
+.blog-box:hover img{
+    width: 400px;
     /* height: 500px; */
 }
 
-.info-img {
-    width: 80%;
+.blog-img {
+    width: 100%;
     height: auto;
-    transition: 2s;
+    transition: 4s;
 }
-.info-img img{
-    width: 80%;
-    height: 80%;
+.blog-img img{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     transition: 4s;
 }
-.info-text{
+.blog-text{
     padding: 30px;
     display: flex;
     flex-direction: column;
 }
-.info-text span{
-    color: #487be1;
+.blog-text span{
+    color: #0d2c69;
     font-size: 0.9rem;
 }
-.info-text .info-title{
+.blog-text .blog-title{
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 100;
     color: #1f166d;
 }
-.info-text .info-title:hover{
+.blog-text .blog-title:hover{
     color: wheat;
     transition: 0.4s;
 }
-.info-text p{
+.blog-text p{
     color: #2b2b2b;
     font-size: 00.9rem;
     display: -webkit-box;
@@ -153,7 +149,6 @@ body{
     text-overflow: ellipsis;
     margin: 20px 0px;
 }
-
 @media and screen (max-width: 1250px) {
     .blog-box {
         width: 300px;
