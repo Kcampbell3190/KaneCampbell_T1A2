@@ -6,7 +6,7 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: url(./images/navy.jpeg);
+    background-image: url(./images/informationbluebackground.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -75,7 +75,7 @@ body{
 }
 .info-heading h3{
     font-size: 2.4rem;
-    color: #868eff;
+    color: #252964;
     font-weight: 600;
 }
 .info-heading h3:hover{
@@ -89,6 +89,7 @@ body{
     flex-wrap: wrap;
     
     
+    
 }
 .info-box {
     width: 200px;
@@ -98,12 +99,13 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     transition: 4s;
+    border-radius: 26rem;
     
     
     
 }
 .info-box:hover{
-    width: 300px;
+    width: 200px;
     
     
 }
@@ -117,6 +119,7 @@ body{
     width: 80%;
     height: auto;
     transition: 2s;
+    border-radius: 20rem;
 }
 .info-img img{
     width: 80%;
@@ -124,6 +127,7 @@ body{
     object-fit: cover;
     object-position: center;
     transition: 4s;
+    border-radius: 20rem;
 }
 .info-text{
     padding: 30px;
