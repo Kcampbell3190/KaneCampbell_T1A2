@@ -78,6 +78,11 @@ body{
     color: #252964;
     font-weight: 600;
 }
+
+.info-heading p{
+    font-size: 1.6rem;
+    padding: 1rem;
+}
 .info-heading h3:hover{
     color: rgb(223, 223, 241);
 }

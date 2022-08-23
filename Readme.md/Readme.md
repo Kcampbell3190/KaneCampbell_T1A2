@@ -24,4 +24,9 @@ Sitemap:
 
 
 Screenshots:
-![Homepage](https://homescreen.png)
+![Homepage](./homescreen.png)
+![Homepage](./blogs.png)
+![Homepage](./Contact.png)
+![Homepage](./Information.png)
+![Homepage](./requiredblog.png)
+
