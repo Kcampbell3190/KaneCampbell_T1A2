@@ -17,6 +17,7 @@ Github Url: https://github.com/Kcampbell3190
 * The site has animations, transitions and hover effects to make the user experience a pleasing and elegant one. The consistency of theme and build means that being digitally lost is mitigated and the user can find their way back to the homepage on all pages. 
 
 Sitemap: 
+![sitemap](./Sitemap.png)
 
 
 
@@ -27,6 +28,6 @@ Screenshots:
 ![Homepage](./homescreen.png)
 ![Homepage](./blogs.png)
 ![Homepage](./Contact.png)
-![Homepage](./Information.png)
+![Homepage](./Informationfinal.png)
 ![Homepage](./requiredblog.png)
 
